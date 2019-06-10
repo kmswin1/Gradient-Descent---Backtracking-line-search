@@ -38,7 +38,6 @@ print('solution from minimize: message: ', res.message)
 print('solution from minimize: success:', res.success)
 print('solution from minimize: solution x:', res.x)
 
-
 # your implementation of gradient descent
 x=gd.min_gd(fun=LeastSquares,x0=x0,grad=grad_LeastSquares,args=(A,b))
 print('solution from min_gd:', x)
